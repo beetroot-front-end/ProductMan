@@ -137,3 +137,51 @@ body {
     background-size: 900px auto;
     background-position: 110% -80px;
 }
+.feature-product {
+    margin-top: 100px;
+    padding: 50px;
+    background-color: #fff;
+}
+.feature-header {
+    font-size: 48px;
+    font-family: "Raleway";
+    font-weight: 600;
+    text-align: center;
+}
+.feature-description {
+    font-size: 18px;
+    font-family: "Raleway";
+    color: rgb(48, 48, 48);
+    margin-top: 5px;
+    line-height: 1.5;
+    text-align: center;
+}
+.beat_img {
+    margin: 30px 15px 0;
+    height: 390px;
+    float: left;
+}
+.beats-1 {
+    width: calc(66% - 30px);
+    background: url('../img/sect1.jpg') no-repeat center center;
+    background-size: cover;
+}
+.beats-2 {
+    background: url('../img/sect2.jpg') no-repeat center center;
+}
+.beats-3 {
+    background: url('../img/sect5.png') no-repeat center center;
+}
+.beats-4 {
+    background: url('../img/sect4.jpg') no-repeat center center;
+}
+.beats-5 {
+    background: url('../img/sect3.jpg') no-repeat center center;
+}
+.beats-2,
+.beats-3,
+.beats-4,
+.beats-5 {
+    width: calc(33% - 30px);
+    background-size: cover;
+}
