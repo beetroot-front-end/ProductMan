@@ -68,6 +68,17 @@ body {
     max-height: 0;
     overflow-y: hidden;
     transition: max-height 1s ease;
+    background-color: #000;
+
+    min-width: 120px;
+    right: 0;
+    z-index: 100;
+}
+body .main-header .dropdown-menu a {
+    color: #ffffff;
+}
+.dropdown-menu li {
+    padding: 5px;
 }
 .dropdown:hover .dropdown-menu {
     max-height: 1000px;
