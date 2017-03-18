@@ -119,6 +119,7 @@ body {
     line-height: 1.5;
     font-weight: 300;
     text-align: right;
+    padding-left: 25px;
 }
 .view-btn {
     font-size: 24px;
