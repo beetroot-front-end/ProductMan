@@ -98,3 +98,41 @@ body {
     color: rgb(48, 48, 48);
     font-weight: 900;
 }
+.left-side,
+.right-side {
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-bottom: 150px;
+}
+.slide-large-text {
+    font-size: 150px;
+    font-family: "Raleway";
+    color: rgb(48, 48, 48);
+    font-weight: 900;
+    text-align: right   ;
+    text-transform: uppercase;
+}
+.slide-description {
+    font-size: 24px;
+    color: rgb(48, 48, 48);
+    line-height: 1.5;
+    font-weight: 300;
+    text-align: right;
+}
+.view-btn {
+    font-size: 24px;
+    color: rgb(225, 0, 17);
+    font-weight: 600;
+    line-height: 1.5;
+    text-decoration: none;
+}
+.slider-container .slide {
+    padding-top: 70px;
+}
+.bg-headphones {
+    background-image: url('../img/headphones_with_bg.png');
+    background-repeat: no-repeat;
+    background-size: 900px auto;
+    background-position: 110% -80px;
+}

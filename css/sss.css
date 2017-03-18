@@ -19,11 +19,9 @@
 }
 
 .ssslide img {
-	max-width: 100%;
 	height: auto;
 	margin: 0;
 	padding: 0;
-	position: relative;
 	display: block;
 }
 
