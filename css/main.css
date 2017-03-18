@@ -47,6 +47,7 @@ table {
 /* styles */
 body {
     background-color: #eee;
+    font-family: "Roboto", sans-serif;
 }
 .main-header_logo {
     float: left;
@@ -57,6 +58,7 @@ body {
 .main-header_nav > li {
     list-style: none;
     float: left;
+    margin-left: 50px;
 }
 .dropdown {
     position: relative;
@@ -78,4 +80,21 @@ body {
 .container {
     width: 80%;
     margin: 0 auto;
+}
+.main-header {
+    line-height: 51px;
+    margin-top: 50px;
+
+}
+.main-header .main-header_nav a {
+    font-size: 18px;
+    color: rgb(48, 48, 48);
+}
+.main-header a {
+    text-decoration: none;
+}
+.main-header_logo {
+    font-size: 48px;
+    color: rgb(48, 48, 48);
+    font-weight: 900;
 }
