@@ -157,7 +157,7 @@ body {
     text-align: center;
 }
 .beat_img:hover {
-    background-color: red;
+    background-color: #e10011;
     background-image: none;
     cursor: default;
 }
@@ -213,4 +213,38 @@ body {
 .beats-5 {
     width: calc(33% - 30px);
     background-size: cover;
+}
+.subscribe-form {
+    text-align: center;
+    font-size: 0;
+    margin: 80px 0;
+}
+
+.subscribe-form input {
+    outline: none;
+    padding:18px 0;
+    font-size: 18px;
+    text-indent: 45px;
+    max-width: 500px;
+    width: 35%;
+    border-radius: 25px 0 0 25px;
+    border: none;
+}
+.subscribe-form i,
+.subscribe-form input,
+.subscribe-form button {
+    font-size: 16px;
+}
+.subscribe-form .fa-envelope-o {
+    position: relative;
+    left: 30px;
+}
+.subscribe-form button {
+    padding: 18px 25px;
+    background-color: #e10011;
+    color: #ffffff;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    border-radius: 0 25px 25px 0;
 }
