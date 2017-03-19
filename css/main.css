@@ -225,6 +225,23 @@ body .main-header .dropdown-menu a {
     width: calc(33% - 30px);
     background-size: cover;
 }
+.subscribe h2 {
+    font-family: 'Raleway';
+    color:  #303030;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 2;
+    text-align: center;
+    margin-top: 100px;
+}
+.subscribe p {
+    font-family: 'Raleway';
+    color:  #303030;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-align: center;
+}
 .subscribe-form {
     text-align: center;
     font-size: 0;
@@ -258,4 +275,44 @@ body .main-header .dropdown-menu a {
     border: 0;
     outline: 0;
     border-radius: 0 25px 25px 0;
+}
+footer {
+    text-align: center;
+}
+.social li {
+    list-style: none;
+    display: inline-block;
+    border-radius: 50%;
+    background-color:  #ffffff;
+    width: 70px;
+    height: 70px;
+    position: relative;
+}
+.social a {
+    font-family: FontAwesome;
+    color:  #979797;
+    font-size: 34px; 
+    font-weight: 400;
+    line-height: 2;
+    position: absolute;
+    right: 20px;
+}
+a.facebook {
+    right: 26px;
+}
+.copyright {
+    font-family: 'Raleway';
+    color:  #979797;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 30px;
+}
+.copyright a {
+    font-family: 'Raleway';
+    color:  #303030;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    text-decoration: none;
 }
